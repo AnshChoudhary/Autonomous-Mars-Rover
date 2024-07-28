@@ -7,11 +7,11 @@ The Autonomous Mars Rover project aims to revolutionize terrain-aware navigation
 Navigating the Martian surface is fraught with challenges, from avoiding hazardous terrain to selecting the most efficient paths for exploration. Traditional methods of navigation rely heavily on pre-mapped routes and human intervention, limiting the scope and speed of exploration. Our project seeks to enhance rover autonomy by providing real-time terrain segmentation and analysis, allowing rovers to make informed decisions independently.
 
 ## Key Features
-- U-Net Architecture: Our model employs a U-Net architecture, renowned for its efficacy in image segmentation tasks. This enables precise identification of terrain features such as soil, bedrock, sand, and large rocks.
+- ***U-Net Architecture***: Our model employs a U-Net architecture, renowned for its efficacy in image segmentation tasks. This enables precise identification of terrain features such as soil, bedrock, sand, and large rocks.
 
-- Crowdsourced vs. Predicted Segmentation: The project demonstrates significant improvements in segmentation accuracy by comparing crowdsourced data against our model's predictions.
+- ***Crowdsourced vs. Predicted Segmentation***: The project demonstrates significant improvements in segmentation accuracy by comparing crowdsourced data against our model's predictions.
 
-- AI4Mars Dataset: We utilize the AI4Mars dataset, which comprises expertly labeled Martian terrain images. This dataset is essential for training and validating our segmentation model.
+- ***AI4Mars Dataset***: We utilize the AI4Mars dataset, which comprises expertly labeled Martian terrain images. This dataset is essential for training and validating our segmentation model.
 
 # Dataset Information
 The dataset used in this project is a version of the AI4Mars merged dataset:
@@ -34,11 +34,11 @@ Crowdsourced labels with a minimum agreement of 3 labelers and 2/3 agreement for
 Expert-gathered labels with 100% pixel agreement required. Different versions specify varying levels of consensus among labelers.
 
 ## Image Information
-- EDR (Engineering Data Record): The actual Martian images used for training and inference.
+- ***EDR (Engineering Data Record)***: The actual Martian images used for training and inference.
 
-- Rover Masks (mxy): Binary masks used to exclude the rover from the segmentation process.
+- ***Rover Masks (mxy)***: Binary masks used to exclude the rover from the segmentation process.
 
-- Range Masks (rng-30m): Binary masks that exclude terrain beyond 30 meters, enhancing the relevance of the segmentation.
+- ***Range Masks (rng-30m)***: Binary masks that exclude terrain beyond 30 meters, enhancing the relevance of the segmentation.
 
 ## Training and Evaluation
 The project's core components include two scripts:
@@ -63,11 +63,11 @@ The results demonstrate the model's ability to effectively segment Martian terra
 The Autonomous Mars Rover project represents a significant leap forward in space exploration technology. By enabling rovers to autonomously interpret and respond to their environments, we can extend the range and duration of missions, reduce the reliance on Earth-based instructions, and increase the scientific yield of each mission. This project lays the foundation for future exploration endeavors, where autonomous systems will play a crucial role in unraveling the mysteries of Mars and beyond.
 
 ## Future Work
-- Dataset Expansion: Incorporate additional datasets, including MER data, to enhance model robustness and generalizability.
+- ***Dataset Expansion***: Incorporate additional datasets, including MER data, to enhance model robustness and generalizability.
 
-- Model Optimization: Experiment with different architectures and hyperparameters to further improve segmentation accuracy and efficiency.
+- ***Model Optimization***: Experiment with different architectures and hyperparameters to further improve segmentation accuracy and efficiency.
 
-- Real-time Deployment: Develop systems for deploying the model in real-time on rover hardware, facilitating on-the-fly decision-making during missions.
+- ***Real-time Deployment***: Develop systems for deploying the model in real-time on rover hardware, facilitating on-the-fly decision-making during missions.
 
 ## Getting Started
 
