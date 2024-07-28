@@ -45,6 +45,8 @@ The project's core components include two scripts:
 
 - train.py: This script trains the U-Net model on the AI4Mars dataset, optimizing for accuracy and Intersection over Union (IoU).
 
+![](https://github.com/AnshChoudhary/Autonomous-Mars-Rover/blob/main/static/iou_acc.png)
+
 - train-eval.py: This script evaluates the trained model's performance on the test set, providing visual comparisons between crowdsourced and predicted segmentations.
 
 ## Results
@@ -55,6 +57,7 @@ Our model has achieved the following performance metrics on the AI4Mars dataset:
 
 The results demonstrate the model's ability to effectively segment Martian terrain, distinguishing between different terrain types with high accuracy. The image below illustrates the comparison between crowdsourced and predicted segmentations:
 
+![Segmentation of Mars Terrain](https://github.com/AnshChoudhary/Autonomous-Mars-Rover/blob/main/static/segmentation.png)
 
 ## Groundbreaking Implications
 The Autonomous Mars Rover project represents a significant leap forward in space exploration technology. By enabling rovers to autonomously interpret and respond to their environments, we can extend the range and duration of missions, reduce the reliance on Earth-based instructions, and increase the scientific yield of each mission. This project lays the foundation for future exploration endeavors, where autonomous systems will play a crucial role in unraveling the mysteries of Mars and beyond.
