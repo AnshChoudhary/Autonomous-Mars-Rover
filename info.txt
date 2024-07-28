@@ -1,0 +1,33 @@
+version 0.1 of AI4Mars merged dataset.
+
+* Contains Curiosity (MSL) data
+* WIP - MER data has not yet been processed/packaged
+
+--labels
+RGB key:
+0,0,0 - soil
+1,1,1 - bedrock
+2,2,2 - sand
+3,3,3 - big rock
+255,255,255 - NULL (no label)
+----train
+Train contains a cleaned and merged version of crowdsourced labels with a minimum agreement of 3 labelers 
+and 2/3 agreement for each pixel. Distances further than 30 meters are masked. The rover itself is also masked.
+----test
+Test contains a merged version of expert gathered labels with 100% agreement required on each pixel.
+3 different versions of the merge are provided which specify how many people has to agree on each pixel
+for it to be included in the label. min3 is the sparsest as it requires all 3 labelers to agree.
+ 
+
+--images
+Names of images match names of labels, except for the extension (JPG, png)
+----edr
+The actual images of Mars that training and inference is run on.
+----mxy
+Rover masks used to remove labels/inferences from the rover. Masked regions are set to 1 (binary image).
+----rng-30m
+Range masks used to mask out distances that are further than 30 meters. Masked regions are set 
+to 1 (binary image). This product is generated from planetary data system (PDS) range image products 
+for many Mars images. Future versions of the dataset will include instructions on download 
+and processing of those range products.
+
