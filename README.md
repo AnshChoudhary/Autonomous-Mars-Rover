@@ -1,5 +1,5 @@
 # Autonomous Mars Rover: Terrain-Aware Navigation
-
+![Hero](https://github.com/AnshChoudhary/Autonomous-Mars-Rover/blob/main/Mars-Rover-Hero.jpg)
 ## Overview
 The Autonomous Mars Rover project aims to revolutionize terrain-aware navigation for rovers on Mars by leveraging advanced machine learning techniques. Utilizing the U-Net architecture, our model is designed to perform semantic segmentation of Martian landscapes, identifying various terrain types that are critical for safe and efficient rover navigation. This project has the potential to be groundbreaking in the field of space exploration, enhancing the autonomy and decision-making capabilities of rovers as they traverse the challenging Martian environment.
 
