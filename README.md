@@ -59,6 +59,9 @@ The results demonstrate the model's ability to effectively segment Martian terra
 
 ![Segmentation of Mars Terrain](https://github.com/AnshChoudhary/Autonomous-Mars-Rover/blob/main/static/segmentation.png)
 
+## Demo Run
+![Demo Video](https://github.com/AnshChoudhary/Autonomous-Mars-Rover/blob/main/mars_output_trim.gif)
+
 ## Groundbreaking Implications
 The Autonomous Mars Rover project represents a significant leap forward in space exploration technology. By enabling rovers to autonomously interpret and respond to their environments, we can extend the range and duration of missions, reduce the reliance on Earth-based instructions, and increase the scientific yield of each mission. This project lays the foundation for future exploration endeavors, where autonomous systems will play a crucial role in unraveling the mysteries of Mars and beyond.
 
