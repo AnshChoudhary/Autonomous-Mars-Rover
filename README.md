@@ -21,11 +21,11 @@ The dataset contains images from the Curiosity Rover (MSL), with planned inclusi
 
 ### Labels:
 
-- Soil: (0,0,0)
-- Bedrock: (1,1,1)
-- Sand: (2,2,2)
-- Big Rock: (3,3,3)
-- NULL: (255,255,255)
+-  (0, 0, 0),      # Class 0: Background/Sky (Black)
+-  (255, 0, 0),    # Class 1: Sand (Red)
+-  (0, 255, 0),    # Class 2: Bedrock (Green)
+-  (0, 0, 255),    # Class 3: Big Rocks (Blue)
+-  (255, 255, 0)   # Class 4: Small Rocks (Yellow)
 
 ### Training Data: 
 Crowdsourced labels with a minimum agreement of 3 labelers and 2/3 agreement for each pixel. Distances beyond 30 meters are masked, as is the rover itself.
