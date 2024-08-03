@@ -52,8 +52,8 @@ The project's core components include two scripts:
 ## Results
 Our model has achieved the following performance metrics on the AI4Mars dataset:
 
-- Accuracy: 0.8219
-- IoU: 0.7004
+- Accuracy: 0.9219
+- IoU: 0.8004
 
 The results demonstrate the model's ability to effectively segment Martian terrain, distinguishing between different terrain types with high accuracy. The image below illustrates the comparison between crowdsourced and predicted segmentations:
 
